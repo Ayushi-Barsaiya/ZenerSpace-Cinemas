@@ -1,16 +1,16 @@
 .App {
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 800;
+  font-weight: bolder;
   color: crimson;
   background-color: rgb(243, 189, 168);
 }
-
 
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Alfa Slab One', cursive;
+  border-bottom: 3mm groove rgba(241, 212, 174, 0.945) ;
 }
 
 #container{
@@ -43,3 +43,12 @@
   display: flex;
   justify-content: center;
  }
+
+ #container .blockElements{
+  display: block;
+}
+
+#container .blockElements div{
+ padding: 3px;
+ font-style: bold;
+}

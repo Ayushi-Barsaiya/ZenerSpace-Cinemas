@@ -12,6 +12,11 @@
   font-family: 'Alfa Slab One', cursive;
   border-bottom: 3mm groove rgba(241, 212, 174, 0.945) ;
 }
+@media(max-width:575px) {
+  .App-header h1{
+    font-size: medium;
+  }
+}
 
 #container{
  width: 90%;
